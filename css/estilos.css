@@ -9,6 +9,46 @@ body    {
 }
 
 
+
+/* ANIMACIONES */
+
+header nav ul li a:hover   {
+    color:white;
+}
+.bienvenidos a:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+.tarjetas:hover{
+    transform: scale(1.1);
+}
+.tarjetas a:hover{
+    color: white;
+    background-color: black;
+}
+.grid:hover {
+    transform: scale(1.1);
+}
+
+@keyframes move     {
+    0%  {
+        transform: translate(0,-40%);
+        color: white
+    }
+    100%    {
+        transform: translate(0);
+        
+    }
+}
+.tarjetas   {
+    transition-duration: 1s;
+}
+
+
+
+
+
 /* HEADER */
 
 
@@ -25,8 +65,6 @@ header  {
     color: black;
     position: fixed;
     z-index: 10;
-    
-
 }
 
 header nav  {
@@ -54,14 +92,12 @@ header nav div a {
 }
 
 
-
-
-
 header nav ul   {
     display: flex;
     list-style: none;
 
 }
+
 
 header nav ul li a {
     text-decoration: none;
@@ -70,10 +106,6 @@ header nav ul li a {
     font-size: 20px;
     margin: 60px;
 }
-
-
-
-
 
 
 /* MAIN */
@@ -98,6 +130,9 @@ header nav ul li a {
 .bienvenidos h2     {
     font-weight: 700;
     font-size: 60px;
+    animation: move 1.2s ease;
+    color: rgba(221, 200, 8, 0.671);
+    
 }
 .bienvenidos p {
 font-size:24px;
@@ -109,6 +144,7 @@ margin: 8px;
     background-color: black;
     font-size: 16px;
     padding: 12px;
+    transition-duration: 1s;
 }
 
 .productos h2   {
@@ -176,6 +212,7 @@ box-shadow: 9px 10px 11px 4px rgba(0,0,0,0.36);
 .grid   {
     width: 400px;
    position: relative;
+   transition-duration: 1s;
 }
 
 
@@ -198,9 +235,6 @@ box-shadow: 9px 10px 11px 4px rgba(0,0,0,0.36);
 box-shadow: 9px 10px 11px 4px rgba(0,0,0,0.36);
 
 }
-
-
-
 
 
 
@@ -260,8 +294,6 @@ footer .derechos    {
     margin-top: 10px;
     height: 10%;
 }
-
-
 
 
 
