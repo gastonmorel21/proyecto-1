@@ -236,7 +236,7 @@ box-shadow: 9px 10px 11px 4px rgba(0,0,0,0.36);
 
 }
 
-.formulario     {
+.formulario {
     margin: 20px;
 
 }
@@ -245,18 +245,19 @@ box-shadow: 9px 10px 11px 4px rgba(0,0,0,0.36);
     margin-bottom: 40px;
 }
 
-.container  {
+.container {
     margin-top: 30px;
 }
 
-.col h3{
+.col h3 {
     margin-bottom: 16px;
 }
 
-.col img{
-    width: 400px; 
+.col img {
+    width: 400px;
     height: 400px;
 }
+
 
 /* FOOTER*/
 
