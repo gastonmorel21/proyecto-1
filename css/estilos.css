@@ -48,7 +48,6 @@ header nav ul li a:hover   {
 
 
 
-
 /* HEADER */
 
 
@@ -109,6 +108,9 @@ header nav ul li a {
 
 
 /* MAIN */
+
+
+
 .bienvenidos    {
     width: 100%;
     height: 100vh;
@@ -235,6 +237,7 @@ box-shadow: 9px 10px 11px 4px rgba(0,0,0,0.36);
 box-shadow: 9px 10px 11px 4px rgba(0,0,0,0.36);
 
 }
+
 
 .formulario {
     margin: 20px;
