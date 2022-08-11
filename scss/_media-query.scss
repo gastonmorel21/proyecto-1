@@ -1,0 +1,136 @@
+/* MEDIA QUERY */
+
+@media screen and (max-width:1150px) {
+
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+
+        .grid   {
+            width: 300px;
+            img     {
+            width: 100%;
+            }
+        }
+    }
+}
+
+    
+
+
+@media screen and (max-width:1034px) {
+
+    .productos {
+
+        .flex {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .galeria {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    header {
+
+        nav {
+            
+            ul {
+                flex-direction: column;
+                text-align: center;
+                height: auto;
+                width: auto;
+                
+
+                li {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+
+    }
+
+    .bienvenidos {
+        div {
+            h2 {
+                width: 90%;
+            }
+
+            p {
+                width: 90%;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:951px) {
+
+    .productos {
+
+        .flex {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .galeria {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    header {
+        nav {
+            ul {
+                li {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    .bienvenidos {
+        div {
+            h2 {
+                width: 90%;
+            }
+
+            p {
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:542px) {
+
+    .productos {
+
+        .flex {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    header {
+        nav {
+            ul {
+                li {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    .bienvenidos {
+        div {
+            h2 {
+                width: 90%;
+            }
+
+            p {
+                width: 90%;
+            }
+        }
+    }
+}

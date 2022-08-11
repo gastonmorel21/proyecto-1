@@ -1,0 +1,49 @@
+/* ANIMACIONES */
+
+header {
+    nav {
+        ul {
+            li {
+                a:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.bienvenidos {
+
+    a:hover {
+        background-color: white;
+        color: black;
+        transform: scale(1.1);
+    }
+}
+
+.tarjetas:hover {
+    transform: scale(1.1);
+}
+
+.tarjetas {
+    a:hover {
+        color: white;
+        background-color: black;
+    }
+}
+
+.grid:hover {
+
+    transform: scale(1.1);
+}
+
+@keyframes move     {
+    0%  {
+        transform: translate(0,-40%);
+        color: white
+    }
+    100%    {
+        transform: translate(0);
+        
+    }
+}

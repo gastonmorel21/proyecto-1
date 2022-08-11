@@ -1,0 +1,59 @@
+.logo {
+
+    width: 20%;
+    height: 100%;
+    object-fit: contain;
+    align-items: left;
+
+}
+
+header {
+
+    color: black;
+    position: fixed;
+    z-index: 10;
+
+    nav {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        height: 90px;
+        background-color: $color-primary;
+        padding: 10px;
+
+        div {
+            width: 50vw;
+            height: 100px;
+
+            a {
+                list-style: none;
+                text-decoration: none;
+                color: black;
+
+            }
+
+        }
+
+
+        ul {
+            display: flex;
+            list-style: none;
+
+            li {
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-weight: 900;
+                    font-size: 20px;
+                    margin: 60px;
+                }
+
+            }
+        }
+    }
+
+
+}
