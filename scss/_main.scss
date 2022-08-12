@@ -187,3 +187,45 @@
         height: 100%;
     }
 }
+
+// mapas
+
+$nombres: (
+
+    nuevo: #008000,
+    oferta: #ff0000,
+
+);
+
+@each $tipos, $color in $nombres {
+    .grid-#{$tipos} {
+        color: $color;
+    }
+    
+}
+
+// extend
+.boton  {
+    font-size: 1px;
+}
+
+.boton-primario     {
+    @extend .boton;
+    color:#ff0000;
+}
+
+.boton-secundario   {
+    @extend .boton;
+    color:#008000;
+}
+
+// mixins
+
+@mixin size ($alto, $ancho)     {
+    height: $alto;
+    width: $ancho;
+}
+.wapp   {
+    @include size (70px, 70px)
+   
+}
