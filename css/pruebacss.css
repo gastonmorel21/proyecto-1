@@ -119,21 +119,9 @@ header {
         font-size: 20px;
         margin: 60px; }
 
-#carouselExampleIndicators {
-  margin-top: 10px;
-  width: 1000px !important;
-  height: 310px !important; }
-  #carouselExampleIndicators img {
-    width: 100%;
-    height: 100%; }
-
-.carousel-inner {
-  width: 1000px !important;
-  height: 310px !important; }
-
 .bienvenidos {
   width: 100%;
-  height: 100vh;
+  height: 800px;
   background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.486)), url(../images/Bolsos-fondo.jpg);
   background-position: center;
   background-repeat: no-repeat;
