@@ -6,9 +6,16 @@
 body {
   font-family: "mochiy pop one", sans-serif; }
 
-/* MEDIA QUERY */
 @media screen and (max-width: 1150px) {
+  header nav ul {
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: auto; }
+    header nav ul li {
+      margin-bottom: 5px; }
   .galeria {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 200px; }
     .galeria .grid {
@@ -16,47 +23,21 @@ body {
       .galeria .grid img {
         width: 100%; } }
 
-@media screen and (max-width: 1034px) {
-  .productos .flex {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); }
-  .galeria {
-    grid-template-columns: repeat(1, 1fr); }
+@media screen and (max-width: 1050px) {
   header nav ul {
     flex-direction: column;
     text-align: center;
-    height: auto;
+    height: 100%;
     width: auto; }
     header nav ul li {
       margin-bottom: 5px; }
-  .bienvenidos div h2 {
-    width: 90%; }
-  .bienvenidos div p {
-    width: 90%; } }
-
-@media screen and (max-width: 951px) {
-  .productos .flex {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); }
   .galeria {
-    grid-template-columns: repeat(1, 1fr); }
-  header nav ul li {
-    margin-bottom: 5px; }
-  .bienvenidos div h2 {
-    width: 90%; }
-  .bienvenidos div p {
-    width: 90%; } }
-
-@media screen and (max-width: 542px) {
-  .productos .flex {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); }
-  header nav ul li {
-    margin-bottom: 5px; }
-  .bienvenidos div h2 {
-    width: 90%; }
-  .bienvenidos div p {
-    width: 90%; } }
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px; }
+    .galeria .grid {
+      width: 300px; }
+      .galeria .grid img {
+        width: 100%; } }
 
 /* ANIMACIONES */
 header nav ul li a:hover {
@@ -99,12 +80,12 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    height: 90px;
+    height: auto;
     background-color: #ca9c0591;
     padding: 10px; }
     header nav div {
       width: 50vw;
-      height: 100px; }
+      height: 90px; }
       header nav div a {
         list-style: none;
         text-decoration: none;
@@ -133,7 +114,7 @@ header {
   align-items: center;
   color: white; }
   .bienvenidos h2 {
-    margin-top: 50px;
+    margin-top: auto;
     font-weight: 700;
     font-size: 55px;
     animation: move 1.2s ease;
@@ -141,6 +122,8 @@ header {
   .bienvenidos p {
     font-size: 24px;
     margin-top: 8px; }
+  .bienvenidos .enlace-inicio {
+    padding: 0; }
   .bienvenidos a {
     text-decoration: none;
     color: white;
@@ -189,9 +172,18 @@ header {
     font-weight: 900;
     padding: 3px; }
 
+.imagen-productos {
+  width: 100;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px; }
+  .imagen-productos img {
+    width: 100%;
+    height: 100%; }
+
 .galeria {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 35px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 400px;
@@ -205,6 +197,7 @@ header {
     box-shadow: 9px 10px 11px 4px rgba(0, 0, 0, 0.36); }
 
 .grid {
+  margin-left: 30px;
   width: 400px;
   position: relative;
   transition-duration: 1s; }
