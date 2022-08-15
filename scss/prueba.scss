@@ -9,6 +9,8 @@ body {
     font-family: "mochiy pop one", sans-serif;
 }
 
+
+
 @import "media-query";
 
 @import "animaciones";
@@ -20,6 +22,216 @@ body {
 @import "main";
 
 @import "footer";
+
+@media screen and (max-width:1150px) {
+    header {
+
+
+        nav {
+
+            ul {
+                flex-direction: column;
+                text-align: center;
+                height: 100%;
+                width: auto;
+
+
+                li{ 
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 400px;
+
+        .grid {
+            width: 400px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width:1050px) {
+
+    header {
+
+        nav {
+
+            ul {
+                flex-direction: column;
+                text-align: center;
+                height: 100%;
+                width: auto;
+
+
+                li {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows:400px;
+
+        .grid {
+            width: 400px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+
+
+    }
+
+    @media screen and (max-width:900px)     {
+
+        header {
+
+            nav {
+    
+                ul {
+                    flex-direction: column;
+                    text-align: center;
+                    height: 100%;
+                    width: auto;
+    
+    
+                    li {
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+    
+        .galeria {
+            grid-template-columns: repeat(2, 1fr);
+            grid-auto-rows:300px;
+    
+            .grid {
+                width: 300px;
+    
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+
+
+
+    }
+
+    @media screen and (max-width:690px)     {
+
+        header {
+
+            nav {
+    
+                ul {
+                    flex-direction: column;
+                    text-align: center;
+                    height: 100%;
+                    width: auto;
+    
+    
+                    li {
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+    
+        .galeria {
+            grid-template-columns: repeat(1, 1fr);
+            grid-auto-rows:500px;
+    
+            .grid {
+                width: 500px;
+    
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+
+
+
+    }
+
+    @media screen and (max-width:540px)     {
+
+        header {
+            
+
+            nav {
+                flex-direction: column;
+                
+                
+                .logo   {
+                    align-items: center;
+                    margin-left: 20px;
+                    width: 100%;
+                    height: 90%;
+                }
+    
+                ul {
+                  
+                    flex-direction: column;
+                    text-align: center;
+                    height: 100%;
+                    width: 100vh;
+    
+    
+                    li {
+                        margin-bottom: 3px;
+                    }
+                }
+            }
+        }
+
+        .bienvenidos    {
+
+            h2  {
+                font-weight: 500;
+                font-size: 48px;
+            }
+        }
+        
+    
+        .galeria {
+            grid-template-columns: repeat(1, 1fr);
+            grid-auto-rows:300px;
+    
+            .grid {
+                width: 300px;
+    
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+
+
+
+    }
+
 
 
 

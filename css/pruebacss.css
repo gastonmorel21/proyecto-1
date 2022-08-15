@@ -6,39 +6,6 @@
 body {
   font-family: "mochiy pop one", sans-serif; }
 
-@media screen and (max-width: 1150px) {
-  header nav ul {
-    flex-direction: column;
-    text-align: center;
-    height: 100%;
-    width: auto; }
-    header nav ul li {
-      margin-bottom: 5px; }
-  .galeria {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 200px; }
-    .galeria .grid {
-      width: 300px; }
-      .galeria .grid img {
-        width: 100%; } }
-
-@media screen and (max-width: 1050px) {
-  header nav ul {
-    flex-direction: column;
-    text-align: center;
-    height: 100%;
-    width: auto; }
-    header nav ul li {
-      margin-bottom: 5px; }
-  .galeria {
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 200px; }
-    .galeria .grid {
-      width: 300px; }
-      .galeria .grid img {
-        width: 100%; } }
-
 /* ANIMACIONES */
 header nav ul li a:hover {
   color: white; }
@@ -102,7 +69,7 @@ header {
 
 .bienvenidos {
   width: 100%;
-  height: 800px;
+  height: 720px;
   background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.486)), url(../images/Bolsos-fondo.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -131,6 +98,117 @@ header {
     font-size: 16px;
     padding: 12px;
     transition-duration: 1s; }
+  .bienvenidos img {
+    width: 90%;
+    height: 300px;
+    margin-bottom: 30px; }
+
+.bienvenidos-contacto {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.486)), url(../images/Bolsos-fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; }
+  .bienvenidos-contacto h2 {
+    font-weight: 700;
+    font-size: 55px;
+    animation: move 1.2s ease;
+    color: #ddc808ab; }
+  .bienvenidos-contacto p {
+    font-size: 24px;
+    margin-top: 8px; }
+
+.bienvenidos-nosotros {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.486)), url(../images/Bolsos-fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; }
+  .bienvenidos-nosotros h2 {
+    margin-top: auto;
+    font-weight: 700;
+    font-size: 55px;
+    animation: move 1.2s ease;
+    color: #ddc808ab; }
+  .bienvenidos-nosotros p {
+    font-size: 24px;
+    margin-top: 8px; }
+
+.bienvenidos-ofertas {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.486)), url(../images/Bolsos-fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; }
+  .bienvenidos-ofertas h2 {
+    margin-top: auto;
+    font-weight: 700;
+    font-size: 55px;
+    animation: move 1.2s ease;
+    color: #ddc808ab; }
+  .bienvenidos-ofertas p {
+    font-size: 24px;
+    margin-top: 8px; }
+  .bienvenidos-ofertas img {
+    width: 90%;
+    height: 300px;
+    margin-bottom: 30px; }
+
+.bienvenidos-productos {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.486)), url(../images/Bolsos-fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; }
+  .bienvenidos-productos h2 {
+    margin-top: auto;
+    font-weight: 700;
+    font-size: 55px;
+    animation: move 1.2s ease;
+    color: #ddc808ab; }
+  .bienvenidos-productos p {
+    font-size: 24px;
+    margin-top: 8px; }
+  .bienvenidos-productos img {
+    width: 90%;
+    height: 300px;
+    margin-bottom: 30px; }
+
+.bienvenidos-contacto {
+  height: 1000px; }
+
+.bienvenidos-nosotros {
+  height: 715px; }
+
+.bienvenidos-ofertas {
+  height: 700px; }
+
+.bienvenidos-productos {
+  height: 752px; }
 
 .productos h2 {
   background-color: #ca9c05;
@@ -291,3 +369,94 @@ footer {
     justify-content: center;
     margin-top: 10px;
     height: 10%; }
+
+@media screen and (max-width: 1150px) {
+  header nav ul {
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: auto; }
+    header nav ul li {
+      margin-bottom: 5px; }
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 400px; }
+    .galeria .grid {
+      width: 400px; }
+      .galeria .grid img {
+        width: 100%; } }
+
+@media screen and (max-width: 1050px) {
+  header nav ul {
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: auto; }
+    header nav ul li {
+      margin-bottom: 5px; }
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 400px; }
+    .galeria .grid {
+      width: 400px; }
+      .galeria .grid img {
+        width: 100%; } }
+
+@media screen and (max-width: 900px) {
+  header nav ul {
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: auto; }
+    header nav ul li {
+      margin-bottom: 5px; }
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 300px; }
+    .galeria .grid {
+      width: 300px; }
+      .galeria .grid img {
+        width: 100%; } }
+
+@media screen and (max-width: 690px) {
+  header nav ul {
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: auto; }
+    header nav ul li {
+      margin-bottom: 5px; }
+  .galeria {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 500px; }
+    .galeria .grid {
+      width: 500px; }
+      .galeria .grid img {
+        width: 100%; } }
+
+@media screen and (max-width: 540px) {
+  header nav {
+    flex-direction: column; }
+    header nav .logo {
+      align-items: center;
+      margin-left: 20px;
+      width: 100%;
+      height: 90%; }
+    header nav ul {
+      flex-direction: column;
+      text-align: center;
+      height: 100%;
+      width: 100vh; }
+      header nav ul li {
+        margin-bottom: 3px; }
+  .bienvenidos h2 {
+    font-weight: 500;
+    font-size: 48px; }
+  .galeria {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 300px; }
+    .galeria .grid {
+      width: 300px; }
+      .galeria .grid img {
+        width: 100%; } }
