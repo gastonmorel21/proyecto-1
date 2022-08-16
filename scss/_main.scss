@@ -345,25 +345,9 @@ $fondo: (
     }
 }
 
-// mapas
-
-$nombres: (
-    nuevo: #008000,
-    oferta: #ff0000,
-
-);
-
-@each $tipos,
-$color in $nombres {
-    .grid-#{$tipos} {
-        color: $color;
-    }
-
-}
-
 // extend
 .boton {
-    font-size: 1px;
+    font-size: 30px;
 }
 
 .boton-primario {

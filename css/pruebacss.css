@@ -315,14 +315,8 @@ header {
     width: 100%;
     height: 100%; }
 
-.grid-nuevo {
-  color: #008000; }
-
-.grid-oferta {
-  color: #ff0000; }
-
 .boton, .boton-primario, .boton-secundario {
-  font-size: 1px; }
+  font-size: 30px; }
 
 .boton-primario {
   color: #ff0000; }
