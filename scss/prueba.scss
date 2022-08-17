@@ -9,10 +9,6 @@ body {
     font-family: "mochiy pop one", sans-serif;
 }
 
-
-
-@import "media-query";
-
 @import "animaciones";
 
 @import "variables";
@@ -44,6 +40,23 @@ body {
             }
         }
     }
+
+    .bienvenidos    {
+        height: 725px;
+    }
+
+    $fondo: (
+    contacto:950px,
+    nosotros:800px,
+    ofertas:715px,
+    productos:770px,
+);
+
+@each $bienvenidos, $size in $fondo     {
+    .bienvenidos-#{$bienvenidos} {
+        height: $size;
+    }
+}
 
     .galeria {
         display: grid;
@@ -83,6 +96,23 @@ body {
         }
     }
 
+    .bienvenidos    {
+        height: 780px;
+    }
+
+    $fondo: (
+    contacto:1000px,
+    nosotros:1100px,
+    ofertas:715px,
+    productos:750px,
+);
+
+@each $bienvenidos, $size in $fondo     {
+    .bienvenidos-#{$bienvenidos} {
+        height: $size;
+    }
+}
+
     .galeria {
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows:400px;
@@ -119,6 +149,20 @@ body {
                 }
             }
         }
+
+    
+        $fondo: (
+        contacto:1200px,
+        nosotros:1100px,
+        ofertas:715px,
+        productos:750px,
+    );
+    
+    @each $bienvenidos, $size in $fondo     {
+        .bienvenidos-#{$bienvenidos} {
+            height: $size;
+        }
+    }
     
         .galeria {
             grid-template-columns: repeat(2, 1fr);
@@ -157,6 +201,22 @@ body {
                 }
             }
         }
+        .bienvenidos    {
+            height: 780px;
+        }
+    
+        $fondo: (
+        contacto:1500px,
+        nosotros:1100px,
+        ofertas:900px,
+        productos:750px,
+    );
+    
+    @each $bienvenidos, $size in $fondo     {
+        .bienvenidos-#{$bienvenidos} {
+            height: $size;
+        }
+    }
     
         .galeria {
             grid-template-columns: repeat(1, 1fr);
@@ -208,6 +268,7 @@ body {
         }
 
         .bienvenidos    {
+            height: 850px;
 
             h2  {
                 font-weight: 500;
@@ -215,6 +276,21 @@ body {
             }
         }
         
+            
+    
+    
+        $fondo: (
+        contacto:1700px,
+        nosotros:1350px,
+        ofertas:930px,
+        productos:760px,
+    );
+    
+    @each $bienvenidos, $size in $fondo     {
+        .bienvenidos-#{$bienvenidos} {
+            height: $size;
+        }
+    }
     
         .galeria {
             grid-template-columns: repeat(1, 1fr);
