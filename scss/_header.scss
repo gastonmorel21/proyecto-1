@@ -19,13 +19,13 @@ header {
         justify-content: space-between;
         align-items: center;
         width: 100vw;
-        height: 90px;
+        height: auto;
         background-color: $color-primary;
         padding: 10px;
 
         div {
             width: 50vw;
-            height: 100px;
+            height: 90px;
 
             a {
                 list-style: none;

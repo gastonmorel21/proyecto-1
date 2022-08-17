@@ -1,3 +1,57 @@
+index.html:
+-agregué estas keywords: Diseños Maricel, bolsos, carteras, mochilas, materas, Buenos Aires, Argentina, big sale, ofertas, contacto, nosotros, productos.
+-agregué descripcion: Diseños Maricel, empresa dedicada a la fabricacion y venta de carteras, mochilas y materas de calidad y al mejor precio.
+-modifiqué el tittle a "Diseños Maricel || Home"
+-agregué favicon
+
+contacto.html
+-agregué estas keywords: Diseños Maricel, bolsos, carteras, mochilas, materas, Buenos Aires, Argentina, contacto, avenida Rivadavia, informacion, ubicacion, bases y condiciones, mail, CP, localidad, nombre, apellido, correo electronico.
+-agregué descripcion: Diseños Maricel, empresa dedicada a la fabricacion y venta de carteras, mochilas y materas de calidad y al mejor precio.
+-modifiqué el tittle a "Diseños Maricel || Contacto"
+-agregué favicon
+-modifiqué pagina
+
+nosotros.html
+-agregué estas keywords: Diseños Maricel, bolsos, carteras, mochilas, materas, Buenos Aires, Argentina, Nosotros, juan, Mercedes.
+-agregué descripcion: Diseños Maricel, empresa dedicada a la fabricacion y venta de carteras, mochilas y materas de calidad y al mejor precio.
+-modifiqué el tittle a "Diseños Maricel || Nosotros"
+-agregué favicon
+
+ofertas.html
+-agregué estas keywords: Diseños Maricel, bolsos, carteras, mochilas, materas, Buenos Aires, Argentina, Ofertas, hot sale, big sale, descuentos, envios gratis.
+-agregué descripcion: Diseños Maricel, empresa dedicada a la fabricacion y venta de carteras, mochilas y materas de calidad y al mejor precio.
+-modifiqué el tittle a "Diseños Maricel || Ofertas"
+-agregué favicon
+
+productos.html
+-agregué estas keywords: Diseños Maricel, bolsos, carteras, mochilas, materas, Buenos Aires, Argentina, Productos, envios, transferencias, off.
+-agregué descripcion: Diseños Maricel, empresa dedicada a la fabricacion y venta de carteras, mochilas y materas de calidad y al mejor precio.
+-modifiqué el tittle a "Diseños Maricel || Productos"
+-agregué favicon
+
+main.scss
+-agregué mapa, mixin y stend
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h1 align="center">Hi 👋, I'm Gaston Morel</h1>
 <h3 align="center">A passionate frontend developer from Argentina</h3>
 
