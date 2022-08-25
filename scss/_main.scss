@@ -1,10 +1,7 @@
-
-
 .bienvenidos {
 
-   
     width: 100%;
-    height:100vh;
+    height: 660px;
     background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.486)), url(../images/Bolsos-fondo.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -16,8 +13,11 @@
     align-items: center;
     color: white;
 
-    h2 {
-        margin-top: 50px;
+
+        
+
+    h1 {
+        margin-top: auto;
         font-weight: 700;
         font-size: 55px;
         animation: move 1.2s ease;
@@ -27,11 +27,15 @@
     p {
         font-size: 24px;
         margin-top: 8px;
-        
+
     }
 
-    .pedido {
+    .enlace-inicio     {
+        padding: 0;
+    }
        
+    a {
+
         text-decoration: none;
         color: white;
         background-color: black;
@@ -39,7 +43,162 @@
         padding: 12px;
         transition-duration: 1s;
     }
+
+   img  {
+    width: 90%;
+    height: 300px;
+    margin-bottom: 30px;
+   }
+
+
 }
+
+
+.bienvenidos-contacto {
+
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.486)), url(../images/Bolsos-fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    h1 {
+        font-weight: 700;
+        font-size: 55px;
+        animation: move 1.2s ease;
+        color: $color-secondary;
+    }
+
+    p {
+        font-size: 24px;
+        margin-top: 8px;
+
+    }
+}
+
+.bienvenidos-nosotros {
+
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.486)), url(../images/Bolsos-fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    h1 {
+        margin-top: auto;
+        font-weight: 700;
+        font-size: 55px;
+        animation: move 1.2s ease;
+        color: $color-secondary;
+    }
+
+    p {
+        font-size: 24px;
+        margin-top: 8px;
+
+    }
+
+}
+
+.bienvenidos-ofertas {
+
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.486)), url(../images/Bolsos-fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    h1 {
+        margin-top: auto;
+        font-weight: 700;
+        font-size: 55px;
+        animation: move 1.2s ease;
+        color: $color-secondary;
+    }
+
+    p {
+        font-size: 24px;
+        margin-top: 8px;
+
+    }
+
+   img  {
+    width: 90%;
+    height: 300px;
+    margin-bottom: 30px;
+   }
+
+
+}
+
+.bienvenidos-productos {
+
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.486)), url(../images/Bolsos-fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    h1 {
+        margin-top: auto;
+        font-weight: 700;
+        font-size: 55px;
+        animation: move 1.2s ease;
+        color: $color-secondary;
+    }
+
+    p {
+        font-size: 24px;
+        margin-top: 8px;
+
+    }
+
+   img  {
+    width: 90%;
+    height: 300px;
+    margin-bottom: 30px;
+   }
+
+
+}
+// mapa
+$fondo: (
+    contacto:810px,
+    nosotros:715px,
+    ofertas:650px,
+    productos:670px,
+);
+
+@each $bienvenidos, $size in $fondo     {
+    .bienvenidos-#{$bienvenidos} {
+        height: $size;
+    }
+}
+
 
 .productos {
     h2 {
@@ -95,10 +254,22 @@
 
 }
 
+.imagen-productos {
+
+    width: 100;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;   
+
+    img     {
+        width: 100%;
+        height: 100%;
+    }
+}
 
 .galeria {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 35px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 400px;
@@ -118,6 +289,7 @@
 }
 
 .grid {
+    margin-left: 30px;
     width: 400px;
     position: relative;
     transition-duration: 1s;
@@ -159,7 +331,7 @@
     transition-duration: 1s;
 }
 
-.wapp   {
+.wapp {
     width: 70px;
     height: 70px;
     position: fixed;
@@ -167,8 +339,45 @@
     bottom: 3rem;
     cursor: pointer;
 
-    img     {
+    img {
+        
         width: 100%;
         height: 100%;
     }
+}
+
+// extend
+.boton {
+    font-size: 30px;
+}
+
+.boton-primario {
+    @extend .boton;
+    color: #ff0000;
+}
+
+.boton-secundario {
+    @extend .boton;
+    color: #008000;
+}
+
+// mixins
+
+@mixin size ($alto, $ancho) {
+    height: $alto;
+    width: $ancho;
+}
+
+.wapp {
+    @include size (70px, 70px)
+}
+
+.map-ubicacion  {
+    margin-top:48px;
+    margin-left: 32px;
+}
+
+.segmento   {
+    display: grid;
+    grid-row: span;
 }
