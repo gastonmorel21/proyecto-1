@@ -342,8 +342,15 @@ header {
   margin-left: 32px; }
 
 .segmento {
-  display: grid;
-  grid-row: span; }
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .segmento img {
+    height: 100%;
+    width: 100%; }
+
+.titulo-mapa {
+  font-size: 32px;
+  margin-bottom: 20px; }
 
 footer {
   background-color: #ca9c05;
