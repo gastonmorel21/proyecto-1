@@ -12,6 +12,14 @@ header {
     }
 }
 
+ul li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li:hover     {
+    background-color: white;
+}
+
 .bienvenidos {
 
     a:hover {

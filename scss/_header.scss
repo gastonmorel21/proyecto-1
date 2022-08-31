@@ -56,6 +56,20 @@ header {
             li {
                 margin-top: 16px;
 
+                .menu-vertical  {
+                    display: block;
+                    position: absolute;
+                    display: none;
+                    
+                    .linea  {
+                        margin-top: 12px;
+                        font-size: 16px;
+                    }
+                    
+
+
+                }
+
                 a {
                     text-decoration: none;
                     color: black;
