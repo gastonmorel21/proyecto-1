@@ -28,21 +28,12 @@
         font-size: 24px;
         margin-top: 8px;
 
-<<<<<<< HEAD
     }
 
     .enlace-inicio     {
         padding: 0;
     }
        
-=======
-    }
-
-    .enlace-inicio     {
-        padding: 0;
-    }
-
->>>>>>> fd031d99a0c92047babd1484939cee2d0413a651
     a {
 
         text-decoration: none;
@@ -62,10 +53,7 @@
 
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> fd031d99a0c92047babd1484939cee2d0413a651
 .bienvenidos-contacto {
 
     width: 100%;
@@ -382,7 +370,6 @@ $fondo: (
 
 .wapp {
     @include size (70px, 70px)
-
 }
 
 .map-ubicacion  {
@@ -404,7 +391,4 @@ $fondo: (
 
     font-size: 32px;
     margin-bottom: 20px;
-    background-color: black;
-    color: white;
-
 }
