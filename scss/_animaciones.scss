@@ -12,13 +12,12 @@ header {
     }
 }
 
-ul li:hover .menu-vertical {
+.menu-horizontal li:hover .menu-vertical {
     display: block;
+    
 }
 
-.menu-vertical li:hover     {
-    background-color: white;
-}
+
 
 .bienvenidos {
 
@@ -45,13 +44,21 @@ ul li:hover .menu-vertical {
     transform: scale(1.1);
 }
 
-@keyframes move     {
-    0%  {
-        transform: translate(0,-40%);
+.boton-añadir:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0, -40%);
         color: white
     }
-    100%    {
+
+    100% {
         transform: translate(0);
-        
+
     }
 }
