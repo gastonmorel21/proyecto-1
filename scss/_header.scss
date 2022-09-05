@@ -4,8 +4,8 @@
     height: 100%;
     object-fit: contain;
     align-items: left;
-    
-    img     {
+
+    img {
         width: 100%;
         height: 100%;
     }
@@ -28,48 +28,27 @@ header {
         background-color: $color-primary;
         padding: 10px;
 
+
         div {
-            
+
             width: 24vw;
             height: 70px;
 
             a {
-            
+
                 list-style: none;
                 text-decoration: none;
                 color: black;
-                
-                p    {
-                    font-size: 24px;
-                    
-                }
-
             }
 
         }
 
-
-        ul {
+        .menu-horizontal, ul, ol {
             display: flex;
             list-style: none;
 
             li {
-                margin-top: 16px;
-
-                .menu-vertical  {
-                    display: block;
-                    position: absolute;
-                    display: none;
-                    
-                    .linea  {
-                        margin-top: 12px;
-                        font-size: 16px;
-                    }
-                    
-
-
-                }
-
+                
                 a {
                     text-decoration: none;
                     color: black;
@@ -81,7 +60,7 @@ header {
             }
         }
 
-        .d-lg-block  {
+        .d-lg-block {
             margin-right: 20px !important;
         }
     }
