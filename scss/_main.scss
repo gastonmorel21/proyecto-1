@@ -368,6 +368,7 @@ $size in $fondo {
 
 .tarjetas {
     transition-duration: 1s;
+    animation: move 1.2s ease;
 }
 
 .wapp {
@@ -438,4 +439,8 @@ $size in $fondo {
 .ubicacion  {
     display: grid;
     grid-template-columns:repeat(3,1fr) ;
+
+    h4  {
+        margin-left: 5px;
+    }
     }

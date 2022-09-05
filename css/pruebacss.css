@@ -11,9 +11,6 @@ body {
 header nav ul li a:hover {
   color: white; }
 
-.menu-horizontal li:hover .menu-vertical {
-  display: block; }
-
 .bienvenidos a:hover {
   background-color: white;
   color: black;
@@ -69,20 +66,9 @@ header {
         list-style: none;
         text-decoration: none;
         color: black; }
-        header nav div a p {
-          font-size: 24px; }
     header nav .menu-horizontal, header nav ul, header nav ol {
       display: flex;
       list-style: none; }
-      header nav .menu-horizontal li .menu-vertical, header nav ul li .menu-vertical, header nav ol li .menu-vertical {
-        display: none;
-        position: absolute; }
-        header nav .menu-horizontal li .menu-vertical .linea, header nav ul li .menu-vertical .linea, header nav ol li .menu-vertical .linea {
-          margin-top: 2px;
-          margin-bottom: 2px;
-          padding-top: 5px;
-          font-size: 16px;
-          background-color: #ca9c0591; }
       header nav .menu-horizontal li a, header nav ul li a, header nav ol li a {
         text-decoration: none;
         color: black;
@@ -345,7 +331,8 @@ header {
   height: 400px; }
 
 .tarjetas {
-  transition-duration: 1s; }
+  transition-duration: 1s;
+  animation: move 1.2s ease; }
 
 .wapp {
   width: 70px;
@@ -390,6 +377,8 @@ header {
 .ubicacion {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
+  .ubicacion h4 {
+    margin-left: 5px; }
 
 footer {
   background-color: #ca9c05;
@@ -427,9 +416,9 @@ footer {
     margin-top: 10px;
     height: 10%; }
 
-@media screen and (max-width: 1329) {
+@media screen and (max-width: 1329px) {
   header nav ul {
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     height: 100%;
     width: auto; }
@@ -447,7 +436,7 @@ footer {
     height: 770px; }
   .galeria {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 350px; }
     .galeria .grid {
       width: 350px; }
@@ -591,4 +580,50 @@ footer {
     .galeria .grid {
       width: 300px; }
       .galeria .grid img {
-        width: 100%; } }
+        width: 100%; }
+  .ubicacion {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    .ubicacion h4 {
+      margin-left: 5px; } }
+
+@media screen and (max-width: 540px) and (max-width: 500px) {
+  header nav {
+    flex-direction: column; }
+    header nav .logo {
+      align-items: center;
+      margin-left: 20px;
+      width: 100%;
+      height: 90%; }
+    header nav ul {
+      flex-direction: column;
+      text-align: center;
+      height: 100%;
+      width: 100vh; }
+      header nav ul li {
+        margin-bottom: 3px; }
+  .bienvenidos {
+    height: 990px; }
+    .bienvenidos h2 {
+      font-weight: 500;
+      font-size: 48px; }
+  .bienvenidos-contacto {
+    height: 1900px; }
+  .bienvenidos-nosotros {
+    height: 1400px; }
+  .bienvenidos-ofertas {
+    height: 1050px; }
+  .bienvenidos-productos {
+    height: 760px; }
+  .galeria {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 300px; }
+    .galeria .grid {
+      width: 300px; }
+      .galeria .grid img {
+        width: 100%; }
+  .ubicacion {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    .ubicacion h4 {
+      margin-left: 5px; } }
