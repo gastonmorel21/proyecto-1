@@ -44,6 +44,7 @@ function filtrarProducto(arr, filtro) {
     return filtrado;
 }
 
+
 let dato = prompt("Ingresa el producto a buscar")
 
 console.log(filtrarProducto(productos, dato));
